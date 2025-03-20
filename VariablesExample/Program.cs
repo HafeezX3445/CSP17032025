@@ -36,6 +36,7 @@ class Sample
     {
         Variables varObj = new Variables();
         Console.WriteLine("\n--- 1. Variables ---");
+
         Console.WriteLine(varObj.GetDefinition()); // check
         foreach (var item in varObj.TypesOfVariables())
         {
