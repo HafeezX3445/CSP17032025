@@ -35,7 +35,7 @@ class Sample
     public static void DisplayVariables()
     {
         Variables varObj = new Variables();
-        Console.WriteLine("\n--- Variables ---");
+        Console.WriteLine("\n--- 1. Variables ---");
         Console.WriteLine(varObj.GetDefinition());
         foreach (var item in varObj.TypesOfVariables())
         {
