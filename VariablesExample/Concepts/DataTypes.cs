@@ -10,14 +10,37 @@ namespace VariablesExample.Concepts
     {
 
         // Add a method to return the definition of Data Types
+
         public string GetDefinition()
         {
-            return "";
+            string definition = "Data types are used to define the type of data that a variable can store";
+
+            return definition;
         }
 
-        // Method to return the list of Data Types with definitions
+        // Write each data type with example
+        // Value types
+        int i = 1086767567;
+        short s = 14523;
+        long l = 6567575745674577777;
+        float f = 12.00f;
+        decimal d = 5.9m;
+        double db = 23.33;
 
-        // Examples for each Data Type
+
+
+
+
+        // Reference Types
+        string str = "Jhanu";
+
+        public void Meth()
+        {
+            dynamic num = "anu";
+            num = 6;
+        }
+        object obj = "Hafizzeyy";
+
 
     }
 }

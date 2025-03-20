@@ -30,6 +30,8 @@ class Sample
                     break;
             }
         }
+
+        Console.ReadLine();
     }
 
     public static void DisplayVariables()
